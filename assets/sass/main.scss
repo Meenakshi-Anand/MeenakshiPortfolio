@@ -767,6 +767,7 @@
 					height: auto;
 
 					.pic {
+						border-radius: 0% !important;
 						height: 25em;
 						width: 100%;
 					}
@@ -779,6 +780,7 @@
 
 				@include breakpoint('<=small') {
 					.pic {
+						border-radius: 0px !important;
 						height: 20em;
 					}
 
