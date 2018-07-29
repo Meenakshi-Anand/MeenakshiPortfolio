@@ -1553,6 +1553,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 12em !important;
 		}
 
 		.image.fit {
@@ -2183,4 +2184,8 @@ input, select, textarea {
 
 		.abtme{
 			font-size: 20px !important;
+		}
+		.prp{
+			font-size: 15px !important;
+		  font-weight: 600 !important;
 		}
