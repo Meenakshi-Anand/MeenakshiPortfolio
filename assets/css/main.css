@@ -2189,3 +2189,14 @@ input, select, textarea {
 			font-size: 15px !important;
 		  font-weight: 600 !important;
 		}
+		.skill{
+			height:8em !important;
+			width:8em !important;
+		}
+		.spskill{
+			height:5em !important;
+			width:5em !important;
+		}
+		.mart{
+			margin-top: 2em !important;
+		}
