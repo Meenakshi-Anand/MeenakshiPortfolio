@@ -126,7 +126,7 @@ input, select, textarea {
 		}
 
 		.row > .col-2 {
-			width: 16.6666666667%;
+			width: 20%;
 		}
 
 		.row > .off-2 {
@@ -142,7 +142,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.3333333333%;
+			width: 30%;
 		}
 
 		.row > .off-4 {
@@ -1366,7 +1366,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: #363636 ;
 	}
 
 	h1 {
@@ -2189,9 +2189,26 @@ input, select, textarea {
 			font-size: 15px !important;
 		  font-weight: 600 !important;
 		}
+		.pr{
+			font-size: 15px !important;
+
+		}
+		.p{
+
+			font-size: 13px !important;
+			text-align: center !important;
+			font-weight: 400  !important;
+
+		}
 		.skill{
-			height:8em !important;
-			width:8em !important;
+			height:6em !important;
+			width:6em !important;
+		}
+		.skills{
+			height:10em !important;
+			width:10em !important;
+			border: solid #3b5998;
+			border-width: thin;
 		}
 		.spskill{
 			height:5em !important;
@@ -2199,4 +2216,167 @@ input, select, textarea {
 		}
 		.mart{
 			margin-top: 2em !important;
+		}
+
+		.title-pad{
+			padding-bottom: 50px;
+		}
+		.card-box{
+			height: 18em;
+			display: inline-block;
+			align-items: center;
+			margin-left: 15px;
+			padding: 0px;
+			background-color: #fffeeb;
+			border: solid #e0a794;
+			border-radius: 2%;
+			margin-bottom: 15px;
+			/*background-image: url("images/overlay.png"), url("images/bg.jpg") ;*/
+			overflow: scroll;
+
+		}
+
+		.info-b{
+			padding: 5px;
+			color:red;
+			border: solid red;
+		}
+		.fs{
+			font-size: 22px !important;
+		}
+
+		.card-line{
+			color: #423838;
+			text-align: center;
+			font-weight: 400;
+		}
+
+		.no-link{
+			margin-left: 15px;
+			float: left;
+		}
+		.comp-avatar{
+			margin-top: 15px;
+			margin-bottom: 25px;
+			/* padding-bottom: 10px; */
+			margin-left: auto;
+		  margin-right: auto;
+		  width: 50%;
+			/* padding-right: 2px; */
+			/* border-right: 2px solid white; */
+			border-radius: 50%;
+			height: 10em !important;
+			width: 10em !important;
+			border: 1px solid #fffeeb;
+		}
+		.ccavatar{
+			margin-top: 10px;
+			padding-bottom: 10px;
+			margin-left:2px;
+			padding-right: 2px;
+			border-right:2px solid white;
+    	height: 10em !important;
+		}
+		.info-box{
+			display: block;
+			text-align: center;
+			color: white;
+		}
+		.link{
+			margin-right: 15px;
+			margin-top: -8px;
+			text-decoration: none;
+			float: right;
+			color: #5d5b5b !important;
+			display: block;
+			font-size: 22px !important;
+
+		}
+		.link2{
+			margin-right: 5px;
+			margin-top: -22px;
+		}
+		.not-link{
+		  margin-top: -20px;
+			margin-left: 5px;
+			width: 90%;
+			float: left;
+			color: #5d5b5b ;
+			text-align: justify;
+			font-size: 16px;
+			overflow: scroll;
+		}
+		.pol{
+			margin-top: -4px;
+		}
+		.ss{
+			height:2.5em;
+			font-size:22px;
+			font-weight: 400;
+		}
+		.spl{
+			padding-bottom: 38px;
+		}
+
+
+		.overflow{
+			overflow: visible;
+		}
+
+		.picsiz{
+			height: 8em;
+		}
+
+		.card-b{
+			height: 18em;
+		}
+
+		.icons{
+			padding: 1px;
+			height:1.9em !important;
+			width:1.9em !important;
+			float: left;
+		}
+		.ic{
+			display: block;
+		}
+		.picic{
+			font-size: 45px !important;
+		}
+		.close{
+			display: block;
+		}
+		.x{
+			float: right;
+			color:#71414f;
+			margin-top: -35px;
+			text-decoration: none;
+		}
+		.ih{
+			border : solid #3b5998;
+			align-items: center;
+
+		}
+		.lblock{
+			display: block;
+		}
+		.blk{
+
+			margin: 15px;
+		}
+		.csec{
+			text-align: center;
+			align-items: center;
+		}
+		.centre{
+			text-align: center !important;
+		}
+		.info-pro{
+			text-decoration: none;
+			color: black !important;
+			font-size: 20px !important;
+			font-weight: bolder;
+		}
+		.cet{
+
 		}
