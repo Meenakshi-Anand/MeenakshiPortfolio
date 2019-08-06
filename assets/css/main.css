@@ -2227,7 +2227,7 @@ input, select, textarea {
 			align-items: center;
 			margin-left: 15px;
 			padding: 0px;
-			background-color: #fffeeb;
+			background-color: #ebc8bd52;
 			border: solid #e0a794;
 			border-radius: 2%;
 			margin-bottom: 15px;
@@ -2374,9 +2374,20 @@ input, select, textarea {
 		.info-pro{
 			text-decoration: none;
 			color: black !important;
-			font-size: 20px !important;
+			font-size: 30px !important;
 			font-weight: bolder;
 		}
-		.cet{
-
+		.info-pro:hover{
+			text-decoration: underline;
 		}
+
+	.skils {
+	    height: 12em !important;
+	    width: 12em !important;
+			margin-left:40px;
+	    border: solid #3b5998;
+	    border-width: thin;
+	}
+	.link:hover{
+		color: #e0a794 !important;
+	}
