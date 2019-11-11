@@ -2225,7 +2225,7 @@ input, select, textarea {
 		.title-pad{
 			padding-bottom: 50px;
 		}
-		.card-box{
+		.card-boxx{
 			height: 15em;
 			display: inline-block;
 			align-items: center;
@@ -2236,6 +2236,21 @@ input, select, textarea {
 			border-radius: 2%;
 			margin-bottom: 15px;
 			width:24% !important;
+			/*background-image: url("images/overlay.png"), url("images/bg.jpg") ;*/
+			/* overflow: scroll; */
+
+		}
+		.card-box{
+			height: 20em;
+			display: inline-block;
+			align-items: center;
+			margin:10px;
+			padding: 0px;
+			background-color: #ebc8bd52;
+			border:  solid #e0a794;
+			border-radius: 2%;
+			margin-bottom: 15px;
+			/* width:24% !important; */
 			/*background-image: url("images/overlay.png"), url("images/bg.jpg") ;*/
 			/* overflow: scroll; */
 
@@ -2282,7 +2297,7 @@ input, select, textarea {
 			padding-bottom: 10px;
 			margin-left:2px;
 			padding-right: 2px;
-			border-right:2px solid white;
+			/* border-right:2px solid white; */
     	height: 10em !important;
 		}
 		.info-box{
