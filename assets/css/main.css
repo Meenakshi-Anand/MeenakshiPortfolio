@@ -2190,7 +2190,11 @@ input, select, textarea {
 		  font-weight: 600 !important;
 		}
 		.pr{
-			font-size: 15px !important;
+			font-size: 18px !important;
+
+		}
+		.ppr{
+			font-size: 16px !important;
 
 		}
 		.p{
@@ -2222,17 +2226,18 @@ input, select, textarea {
 			padding-bottom: 50px;
 		}
 		.card-box{
-			height: 18em;
+			height: 15em;
 			display: inline-block;
 			align-items: center;
-			margin-left: 15px;
+			margin:2px;
 			padding: 0px;
 			background-color: #ebc8bd52;
-			border: solid #e0a794;
+			border:  solid #e0a794;
 			border-radius: 2%;
 			margin-bottom: 15px;
+			width:24% !important;
 			/*background-image: url("images/overlay.png"), url("images/bg.jpg") ;*/
-			overflow: scroll;
+			/* overflow: scroll; */
 
 		}
 
@@ -2255,18 +2260,21 @@ input, select, textarea {
 			margin-left: 15px;
 			float: left;
 		}
+		.b-color{
+			background-color: white
+		}
 		.comp-avatar{
-			margin-top: 15px;
-			margin-bottom: 25px;
+			margin-top: 10px;
+			margin-bottom: 10px;
 			/* padding-bottom: 10px; */
 			margin-left: auto;
 		  margin-right: auto;
-		  width: 50%;
+		  /* width: 50%; */
 			/* padding-right: 2px; */
 			/* border-right: 2px solid white; */
 			border-radius: 50%;
-			height: 10em !important;
-			width: 10em !important;
+			height: 8em !important;
+			width: 8em !important;
 			border: 1px solid #fffeeb;
 		}
 		.ccavatar{
@@ -2310,12 +2318,14 @@ input, select, textarea {
 			margin-top: -4px;
 		}
 		.ss{
-			height:2.5em;
-			font-size:22px;
+			height:2em;
+			font-size:18px;
 			font-weight: 400;
 		}
+
 		.spl{
-			padding-bottom: 38px;
+			padding-bottom: 5px;
+			text-align: center;
 		}
 
 
